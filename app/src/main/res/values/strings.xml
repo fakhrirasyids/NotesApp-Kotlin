@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Notes App</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="submit">Submit</string>
+    <string name="delete">Hapus</string>
+    <string name="date">Date</string>
+    <string name="title_activity_note_detail">NoteDetailActivity</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="add_update_note">Add Update Note</string>
+    <string name="notes_app">Notes App</string>
+    <string name="add_note">Add Note</string>
+    <string name="note_app_logo">Note App Logo</string>
+    <string name="settings">Settings</string>
+</resources>
