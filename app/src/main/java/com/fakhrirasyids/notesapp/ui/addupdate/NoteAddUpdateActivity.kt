@@ -27,9 +27,6 @@ class NoteAddUpdateActivity : AppCompatActivity() {
 
         noteAddUpdateViewModel = obtainViewModel(this@NoteAddUpdateActivity)
 
-        Toast.makeText(this, "INI EXTRANYA ${intent.getStringExtra(ID_NOTE)}", Toast.LENGTH_SHORT)
-            .show()
-
         val noteId: String? = intent.getStringExtra(ID_NOTE)
 
         if (noteId.isNullOrBlank()) {

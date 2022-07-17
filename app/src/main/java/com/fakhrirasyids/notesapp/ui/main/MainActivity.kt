@@ -97,7 +97,6 @@ class MainActivity : AppCompatActivity() {
     private fun searchedNoteObserver() {
         mainViewModel.searchedQuery.observe(this) {
             if (it != null) {
-                Toast.makeText(this, "INI QUERY SEBLUMNYA $it", Toast.LENGTH_SHORT).show()
                 getSearchedNotesObserver(it)
             } else {
                 notesObserver()
