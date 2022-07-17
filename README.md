@@ -17,7 +17,7 @@ Simple Notes App built with Kotlin, developed using [Room](https://developer.and
 
 ## APK:
 
-  [Debug apk]([https://github.com/fakhrirasyids/WeatherApp-Kotlin/blob/master/app-debug.apk](https://github.com/fakhrirasyids/NotesApp-Kotlin/blob/master/app-debug.apk))
+  [Debug apk][https://github.com/fakhrirasyids/WeatherApp-Kotlin/blob/master/app-debug.apk](https://github.com/fakhrirasyids/NotesApp-Kotlin/blob/master/app-debug.apk)
 
 ## Todo
 - Fix some layout problems
