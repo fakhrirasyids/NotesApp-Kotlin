@@ -1,4 +1,4 @@
-package com.fakhrirasyids.notesapp.database
+package com.fakhrirasyids.notesapp.data
 
 import android.os.Parcelable
 import androidx.room.ColumnInfo

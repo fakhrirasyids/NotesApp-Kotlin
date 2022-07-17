@@ -1,10 +1,10 @@
-package com.fakhrirasyids.notesapp.database.repository
+package com.fakhrirasyids.notesapp.data.repository
 
 import android.app.Application
 import androidx.lifecycle.LiveData
-import com.fakhrirasyids.notesapp.database.NoteDao
-import com.fakhrirasyids.notesapp.database.NoteEntity
-import com.fakhrirasyids.notesapp.database.NoteRoomDatabase
+import com.fakhrirasyids.notesapp.data.NoteDao
+import com.fakhrirasyids.notesapp.data.NoteEntity
+import com.fakhrirasyids.notesapp.data.NoteRoomDatabase
 import java.util.concurrent.ExecutorService
 import java.util.concurrent.Executors
 

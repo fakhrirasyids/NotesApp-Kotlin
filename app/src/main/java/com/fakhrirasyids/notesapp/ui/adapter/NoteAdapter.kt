@@ -4,7 +4,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.fakhrirasyids.notesapp.databinding.ItemNoteBinding
-import com.fakhrirasyids.notesapp.database.NoteEntity
+import com.fakhrirasyids.notesapp.data.NoteEntity
 
 class NoteAdapter(private var listNotes: List<NoteEntity>) :
     RecyclerView.Adapter<NoteAdapter.ViewHolder>() {

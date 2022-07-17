@@ -1,4 +1,4 @@
-package com.fakhrirasyids.notesapp.ui.factory
+package com.fakhrirasyids.notesapp.utils
 
 import android.app.Application
 import androidx.lifecycle.ViewModel

@@ -11,14 +11,14 @@ import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
-import com.fakhrirasyids.notesapp.database.NoteEntity
+import com.fakhrirasyids.notesapp.data.NoteEntity
 import com.fakhrirasyids.notesapp.databinding.ActivityMainBinding
 import com.fakhrirasyids.notesapp.ui.adapter.NoteAdapter
 import com.fakhrirasyids.notesapp.ui.adapter.OnItemClickCallback
 import com.fakhrirasyids.notesapp.ui.addupdate.NoteAddUpdateActivity
 import com.fakhrirasyids.notesapp.ui.addupdate.NoteAddUpdateActivity.Companion.ID_NOTE
-import com.fakhrirasyids.notesapp.ui.factory.ViewModelFactory
 import com.fakhrirasyids.notesapp.ui.settings.SettingsActivity
+import com.fakhrirasyids.notesapp.utils.ViewModelFactory
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding

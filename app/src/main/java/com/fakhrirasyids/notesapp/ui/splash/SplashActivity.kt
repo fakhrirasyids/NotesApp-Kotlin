@@ -15,7 +15,7 @@ import com.fakhrirasyids.notesapp.databinding.ActivitySplashBinding
 import com.fakhrirasyids.notesapp.ui.main.MainActivity
 import com.fakhrirasyids.notesapp.ui.settings.SettingPreferences
 import com.fakhrirasyids.notesapp.ui.settings.SettingViewModel
-import com.fakhrirasyids.notesapp.ui.settings.SettingViewModelFactory
+import com.fakhrirasyids.notesapp.utils.SettingViewModelFactory
 
 class SplashActivity : AppCompatActivity() {
     private val Context.dataStore: DataStore<Preferences> by preferencesDataStore(name = "settings")

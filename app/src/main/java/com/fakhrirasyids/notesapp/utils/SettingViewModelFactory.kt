@@ -1,7 +1,9 @@
-package com.fakhrirasyids.notesapp.ui.settings
+package com.fakhrirasyids.notesapp.utils
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
+import com.fakhrirasyids.notesapp.ui.settings.SettingPreferences
+import com.fakhrirasyids.notesapp.ui.settings.SettingViewModel
 
 class SettingViewModelFactory(private val pref: SettingPreferences) :
     ViewModelProvider.NewInstanceFactory() {

@@ -10,6 +10,7 @@ import androidx.datastore.preferences.core.Preferences
 import androidx.datastore.preferences.preferencesDataStore
 import androidx.lifecycle.ViewModelProvider
 import com.fakhrirasyids.notesapp.databinding.ActivitySettingsBinding
+import com.fakhrirasyids.notesapp.utils.SettingViewModelFactory
 
 class SettingsActivity : AppCompatActivity() {
     private val Context.dataStore: DataStore<Preferences> by preferencesDataStore(name = "settings")

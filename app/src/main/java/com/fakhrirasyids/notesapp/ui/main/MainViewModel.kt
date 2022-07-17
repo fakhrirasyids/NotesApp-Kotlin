@@ -4,8 +4,8 @@ import android.app.Application
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.fakhrirasyids.notesapp.database.NoteEntity
-import com.fakhrirasyids.notesapp.database.repository.NoteRepository
+import com.fakhrirasyids.notesapp.data.NoteEntity
+import com.fakhrirasyids.notesapp.data.repository.NoteRepository
 
 class MainViewModel(application: Application) : ViewModel() {
 

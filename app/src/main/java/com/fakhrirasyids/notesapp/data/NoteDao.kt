@@ -1,4 +1,4 @@
-package com.fakhrirasyids.notesapp.database
+package com.fakhrirasyids.notesapp.data
 
 import androidx.lifecycle.LiveData
 import androidx.room.*
